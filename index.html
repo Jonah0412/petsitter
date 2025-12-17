@@ -58,6 +58,25 @@
             </section>
         </main>
     </div>
+
+    <footer class="site-footer">
+        <div class="site-footer-inner">
+            <div class="site-footer-brand">
+                <img src="assets/116fa2c0c60c08975d344823cfa04ceb9cac0e5a.svg" alt="Pet Care" class="logo-img">
+            </div>
+            <div class="site-footer-links">
+                <a href="#" aria-label="Home">Home</a>
+                <a href="#" aria-label="Services">Services</a>
+                <a href="#" aria-label="About">About</a>
+                <a href="#" aria-label="Contact">Contact</a>
+            </div>
+            <div class="site-footer-copy">© <span id="current-year"></span> Pet Care</div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
 
